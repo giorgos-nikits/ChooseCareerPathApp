@@ -1,0 +1,9 @@
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.csproj.AssemblyReference.cache
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.Form1.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.frmLogin.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.mainMenu.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.csproj.GenerateResource.cache
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.AssemblyInfoInputs.cache
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.AssemblyInfo.cs
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net5.0-windows\EkpaideytikoLogismiko.csproj.CoreCompileInputs.cache
