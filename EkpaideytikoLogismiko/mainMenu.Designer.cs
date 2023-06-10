@@ -52,6 +52,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -190,10 +191,8 @@
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(462, 158);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(534, 15);
+            this.label5.Size = new System.Drawing.Size(0, 15);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Αν δεν εισαι σιγουρος για το τι να διαλέξεις κανε ενα test για να δεις ποια κατευ" +
-    "θηνση σου ταιριάζει";
             // 
             // label6
             // 
@@ -322,12 +321,26 @@
             this.label17.TabIndex = 22;
             this.label17.Text = "Γλώσσες προγραμματισμού";
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.linkLabel1.Location = new System.Drawing.Point(462, 158);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(534, 15);
+            this.linkLabel1.TabIndex = 25;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "Αν δεν εισαι σιγουρος για το τι να διαλέξεις κανε ενα test για να δεις ποια κατευ" +
+    "θηνση σου ταιριάζει";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // mainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1514, 737);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.label17);
@@ -388,5 +401,6 @@
         private Label label15;
         private Label label16;
         private Label label17;
+        private LinkLabel linkLabel1;
     }
 }

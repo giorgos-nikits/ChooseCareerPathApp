@@ -21,5 +21,12 @@ namespace EkpaideytikoLogismiko
         {
 
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            direction dir = new direction();
+            dir.Show();
+            this.Hide();
+        }
     }
 }

@@ -33,3 +33,4 @@ C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\ob
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.pdb
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.genruntimeconfig.cache
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.Properties.Resources.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.direction.resources
