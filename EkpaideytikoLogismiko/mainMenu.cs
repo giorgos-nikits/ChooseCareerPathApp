@@ -28,5 +28,17 @@ namespace EkpaideytikoLogismiko
             dir.Show();
             this.Hide();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            dashboard dash = new dashboard();
+            dash.Show();
+            this.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -11,8 +11,10 @@ using System.Data.OleDb;
 
 namespace EkpaideytikoLogismiko
 {
+    
     public partial class frmLogin : Form
     {
+        public String myName;
         public frmLogin()
         {
             InitializeComponent();
@@ -35,6 +37,7 @@ namespace EkpaideytikoLogismiko
             {
                 new mainMenu().Show();
                 this.Hide();
+                myName = txtUsername.Text;
             }
             else
             {
