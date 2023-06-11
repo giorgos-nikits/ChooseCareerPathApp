@@ -17,5 +17,14 @@
     <Compile Update="mainMenu.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="sestart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SeUnit1quiz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Unit1.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

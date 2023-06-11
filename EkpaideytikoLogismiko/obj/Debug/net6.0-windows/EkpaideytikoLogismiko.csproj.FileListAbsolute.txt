@@ -35,3 +35,6 @@ C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\ob
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.Properties.Resources.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.direction.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.dashboard.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.sestart.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnit1quiz.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.Unit1.resources

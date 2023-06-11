@@ -104,11 +104,11 @@
             // 
             this.label5.AutoSize = true;
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(71, 79);
+            this.label5.Location = new System.Drawing.Point(48, 79);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 15);
+            this.label5.Size = new System.Drawing.Size(61, 15);
             this.label5.TabIndex = 4;
-            this.label5.Text = "Unit 1";
+            this.label5.Text = "Ενότητα 1";
             // 
             // checkBox1
             // 
@@ -136,11 +136,11 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(71, 116);
+            this.label6.Location = new System.Drawing.Point(48, 115);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 15);
+            this.label6.Size = new System.Drawing.Size(61, 15);
             this.label6.TabIndex = 6;
-            this.label6.Text = "Unit 2";
+            this.label6.Text = "Ενότητα 2";
             // 
             // label7
             // 
@@ -179,11 +179,11 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(400, 116);
+            this.label9.Location = new System.Drawing.Point(377, 115);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 15);
+            this.label9.Size = new System.Drawing.Size(61, 15);
             this.label9.TabIndex = 11;
-            this.label9.Text = "Unit 2";
+            this.label9.Text = "Ενότητα 2";
             // 
             // checkBox4
             // 
@@ -200,11 +200,11 @@
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(400, 79);
+            this.label10.Location = new System.Drawing.Point(377, 78);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(38, 15);
+            this.label10.Size = new System.Drawing.Size(61, 15);
             this.label10.TabIndex = 9;
-            this.label10.Text = "Unit 1";
+            this.label10.Text = "Ενότητα 1";
             // 
             // label11
             // 
@@ -232,11 +232,11 @@
             // 
             this.label12.AutoSize = true;
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(706, 116);
+            this.label12.Location = new System.Drawing.Point(683, 116);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 15);
+            this.label12.Size = new System.Drawing.Size(61, 15);
             this.label12.TabIndex = 16;
-            this.label12.Text = "Unit 2";
+            this.label12.Text = "Ενότητα 2";
             // 
             // checkBox6
             // 
@@ -253,11 +253,11 @@
             // 
             this.label13.AutoSize = true;
             this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(706, 79);
+            this.label13.Location = new System.Drawing.Point(683, 79);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(38, 15);
+            this.label13.Size = new System.Drawing.Size(61, 15);
             this.label13.TabIndex = 14;
-            this.label13.Text = "Unit 1";
+            this.label13.Text = "Ενότητα 1";
             // 
             // panel1
             // 
