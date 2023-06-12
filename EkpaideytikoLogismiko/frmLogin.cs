@@ -14,11 +14,10 @@ namespace EkpaideytikoLogismiko
     
     public partial class frmLogin : Form
     {
-        public String myName;
+        
         public frmLogin()
         {
             InitializeComponent();
- 
         }
         
         OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
@@ -26,18 +25,22 @@ namespace EkpaideytikoLogismiko
         OleDbCommand cmd = new OleDbCommand();
         OleDbDataAdapter da = new OleDbDataAdapter();
 
+       
+
         private void button1_Click(object sender, EventArgs e)
         {
             con.Open();
             string login = "SELECT * FROM tbl_users WHERE username= '" + txtUsername.Text + "' and password= '" + txtpassword.Text + "'";
             cmd = new OleDbCommand(login, con);
             OleDbDataReader dr = cmd.ExecuteReader();
+            //con.Close();
 
             if (dr.Read()== true)
             {
                 new mainMenu().Show();
                 this.Hide();
-                myName = txtUsername.Text;
+                Class1.LoggedInUsername = txtUsername.Text;
+                con.Close();
             }
             else
             {
@@ -45,6 +48,7 @@ namespace EkpaideytikoLogismiko
                 txtUsername.Text = "";
                 txtpassword.Text = "";
                 txtUsername.Focus();
+                con.Close();
             }
         }
 

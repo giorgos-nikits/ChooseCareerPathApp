@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -17,6 +18,10 @@ namespace EkpaideytikoLogismiko
             InitializeComponent();
             
         }
+
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
 
         int countS = 0;
         int countL = 0;
@@ -86,9 +91,7 @@ namespace EkpaideytikoLogismiko
                 countL += 1;
             }
 
-
-
-            MessageBox.Show("Your results:" + countS + "/4", "Test Complete",MessageBoxButtons.OK);
+            
         }
 
         private void button2_Click(object sender, EventArgs e)
