@@ -91,7 +91,20 @@ namespace EkpaideytikoLogismiko
                 countL += 1;
             }
 
-            
+            con.Open();
+            string tempUsername = Class1.LoggedInUsername;
+            string submit = "UPDATE tbl_users SET SEE1T = @ValueToAdd WHERE username = @Username";
+            using (OleDbCommand cmd = new OleDbCommand(submit, con))
+            {
+                cmd.Parameters.AddWithValue("@ValueToAdd", countS);
+                cmd.Parameters.AddWithValue("@Username", tempUsername);
+
+                cmd.ExecuteNonQuery();
+            }
+            con.Close();
+
+
+            MessageBox.Show("Your results:" + countS + "/4", "Test Complete",MessageBoxButtons.OK);
         }
 
         private void button2_Click(object sender, EventArgs e)
