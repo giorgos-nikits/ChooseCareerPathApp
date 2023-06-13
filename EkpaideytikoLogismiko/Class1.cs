@@ -9,5 +9,6 @@ namespace EkpaideytikoLogismiko
     public static class Class1
     {
         public static string LoggedInUsername { get; set; }
+        public static string SEE1S { get; set; }
     }
 }

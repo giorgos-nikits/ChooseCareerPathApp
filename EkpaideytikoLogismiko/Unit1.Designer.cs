@@ -39,6 +39,7 @@
             this.label6 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -55,7 +56,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 39);
+            this.label2.Location = new System.Drawing.Point(12, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1092, 330);
             this.label2.TabIndex = 1;
@@ -154,6 +155,16 @@
             this.checkBox1.TabIndex = 9;
             this.checkBox1.Text = "Ολοκλήρωσα την 1η Ενότητα";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(479, 46);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(130, 15);
+            this.label7.TabIndex = 10;
+            this.label7.Text = "Εισαγωγή στην Python";
             // 
             // Unit1
             // 
@@ -161,6 +172,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1113, 599);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label6);
@@ -192,5 +204,6 @@
         private Label label6;
         private Button button3;
         private CheckBox checkBox1;
+        private Label label7;
     }
 }

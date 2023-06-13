@@ -109,6 +109,7 @@
             this.label5.Size = new System.Drawing.Size(61, 15);
             this.label5.TabIndex = 4;
             this.label5.Text = "Ενότητα 1";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // checkBox1
             // 
@@ -120,6 +121,7 @@
             this.checkBox1.Size = new System.Drawing.Size(15, 14);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // checkBox2
             // 
