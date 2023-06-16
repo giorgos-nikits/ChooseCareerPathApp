@@ -38,3 +38,8 @@ C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\ob
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.sestart.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnit1quiz.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.Unit1.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnit2.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnit2quiz.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnitF.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GDUnitStart.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GEUnit1.resources

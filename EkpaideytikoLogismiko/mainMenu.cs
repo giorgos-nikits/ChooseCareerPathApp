@@ -46,5 +46,12 @@ namespace EkpaideytikoLogismiko
             new sestart().Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new GDUnitStart().Show();
+            this.Hide();
+
+        }
     }
 }

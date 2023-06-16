@@ -38,5 +38,11 @@ namespace EkpaideytikoLogismiko
             new Unit1().Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            new SeUnit2().Show();
+            this.Hide();
+        }
     }
 }
