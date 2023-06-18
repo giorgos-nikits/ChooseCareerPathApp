@@ -28,5 +28,16 @@ namespace EkpaideytikoLogismiko
             new SeUnit2quiz().Show();
             this.Hide();
         }
+
+        private void SeUnit2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new SeUnitF().Show();
+            this.Hide();
+        }
     }
 }

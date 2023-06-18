@@ -43,3 +43,6 @@ C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\ob
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.SeUnitF.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GDUnitStart.resources
 C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GEUnit1.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GDunit1test.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GDunit2test.resources
+C:\Users\Giorgos Nik\source\repos\EkpaideytikoLogismiko\EkpaideytikoLogismiko\obj\Debug\net6.0-windows\EkpaideytikoLogismiko.GEunit2.resources

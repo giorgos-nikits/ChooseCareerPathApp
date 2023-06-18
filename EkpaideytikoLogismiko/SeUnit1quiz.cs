@@ -105,6 +105,7 @@ namespace EkpaideytikoLogismiko
 
 
             MessageBox.Show("Your results:" + countS + "/4", "Test Complete",MessageBoxButtons.OK);
+            countS = 0;
         }
 
         private void button2_Click(object sender, EventArgs e)

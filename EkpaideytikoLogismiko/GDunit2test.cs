@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace EkpaideytikoLogismiko
 {
-    public partial class SeUnit2quiz : Form
+    public partial class GDunit2test : Form
     {
-        public SeUnit2quiz()
+        public GDunit2test()
         {
             InitializeComponent();
         }
@@ -23,17 +23,15 @@ namespace EkpaideytikoLogismiko
         OleDbDataAdapter da = new OleDbDataAdapter();
 
         int countS = 0;
-        int countL = 0;
+        
 
-        private void button2_Click(object sender, EventArgs e)
+        private void rbE1lath_CheckedChanged(object sender, EventArgs e)
         {
-            new SeUnit2().Show();
-            this.Hide();
+
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            
             if (rbE1cor.Checked == true)
             {
                 txtBE1.Text = "ΣΩΣΤΟ";
@@ -42,7 +40,7 @@ namespace EkpaideytikoLogismiko
             else
             {
                 txtBE1.Text = " ΛΑΘΟΣ";
-                countL += 1;
+                
             }
 
             if (rbE2cor.Checked == true)
@@ -53,7 +51,7 @@ namespace EkpaideytikoLogismiko
             else
             {
                 txtBE2.Text = " ΛΑΘΟΣ";
-                countL += 1;
+                
             }
 
             if (rbE3cor.Checked == true)
@@ -64,7 +62,7 @@ namespace EkpaideytikoLogismiko
             else
             {
                 txtBE3.Text = " ΛΑΘΟΣ";
-                countL += 1;
+                
             }
 
             if (rbE4cor.Checked == true)
@@ -75,7 +73,7 @@ namespace EkpaideytikoLogismiko
             else
             {
                 txtBE4.Text = " ΛΑΘΟΣ";
-                countL += 1;
+                
             }
 
             /*
@@ -95,6 +93,11 @@ namespace EkpaideytikoLogismiko
             MessageBox.Show("Your results:" + countS + "/4", "Test Complete", MessageBoxButtons.OK);
             countS = 0;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new GEunit2().Show();
+            this.Hide();
+        }
     }
-    
 }

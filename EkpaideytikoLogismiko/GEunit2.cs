@@ -10,28 +10,22 @@ using System.Windows.Forms;
 
 namespace EkpaideytikoLogismiko
 {
-    public partial class GDUnitStart : Form
+    public partial class GEunit2 : Form
     {
-        public GDUnitStart()
+        public GEunit2()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            new GEUnit1().Show();
+            new GDUnitStart().Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new mainMenu().Show();
-            this.Hide();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            new GEunit2().Show();
+            new GDunit2test().Show();
             this.Hide();
         }
     }

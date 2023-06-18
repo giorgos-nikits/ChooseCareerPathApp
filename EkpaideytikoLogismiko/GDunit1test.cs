@@ -11,9 +11,9 @@ using System.Windows.Forms;
 
 namespace EkpaideytikoLogismiko
 {
-    public partial class SeUnit2quiz : Form
+    public partial class GDunit1test : Form
     {
-        public SeUnit2quiz()
+        public GDunit1test()
         {
             InitializeComponent();
         }
@@ -27,13 +27,12 @@ namespace EkpaideytikoLogismiko
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new SeUnit2().Show();
-            this.Hide();
+            new GEUnit1().Show();
+            this.Hide();    
         }
 
-        private void button1_Click_1(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            
             if (rbE1cor.Checked == true)
             {
                 txtBE1.Text = "ΣΩΣΤΟ";
@@ -93,8 +92,7 @@ namespace EkpaideytikoLogismiko
             */
 
             MessageBox.Show("Your results:" + countS + "/4", "Test Complete", MessageBoxButtons.OK);
-            countS = 0;
+            countS= 0;
         }
     }
-    
 }
