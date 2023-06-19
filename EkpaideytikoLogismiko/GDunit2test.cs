@@ -76,10 +76,10 @@ namespace EkpaideytikoLogismiko
                 
             }
 
-            /*
+            
             con.Open();
             string tempUsername = Class1.LoggedInUsername;
-            string submit = "UPDATE tbl_users SET SEE1T = @ValueToAdd WHERE username = @Username";
+            string submit = "UPDATE tbl_users SET GDE2T = @ValueToAdd WHERE username = @Username";
             using (OleDbCommand cmd = new OleDbCommand(submit, con))
             {
                 cmd.Parameters.AddWithValue("@ValueToAdd", countS);
@@ -88,8 +88,8 @@ namespace EkpaideytikoLogismiko
                 cmd.ExecuteNonQuery();
             }
             con.Close();
-            */
 
+            Class1.GDE2T = countS;
             MessageBox.Show("Your results:" + countS + "/4", "Test Complete", MessageBoxButtons.OK);
             countS = 0;
         }

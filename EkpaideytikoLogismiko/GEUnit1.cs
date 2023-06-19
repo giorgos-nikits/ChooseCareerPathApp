@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.OleDb;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -15,7 +16,19 @@ namespace EkpaideytikoLogismiko
         public GEUnit1()
         {
             InitializeComponent();
+            if(Class1.GDE1S == 1)
+            {
+                checkBox1.Checked = true;
+            }
+            else
+            {
+                checkBox1.Checked = false;  
+            }
         }
+
+        OleDbConnection con = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=db_users.mdb");
+        OleDbCommand cmd = new OleDbCommand();
+        OleDbDataAdapter da = new OleDbDataAdapter();
 
         private void GEUnit1_Load(object sender, EventArgs e)
         {
@@ -43,6 +56,33 @@ namespace EkpaideytikoLogismiko
         {
             new GEunit2().Show();
             this.Hide();
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                Class1.GDE1S = 1;
+
+            }
+            else
+            {
+                Class1.GDE1S = 0;
+
+            }
+
+
+            con.Open();
+            string tempUsername = Class1.LoggedInUsername;
+            string submit = "UPDATE tbl_users SET SEE1 = @ValueToAdd WHERE username = @Username";
+            using (OleDbCommand cmd = new OleDbCommand(submit, con))
+            {
+                cmd.Parameters.AddWithValue("@ValueToAdd", Class1.GDE1S);
+                cmd.Parameters.AddWithValue("@Username", tempUsername);
+
+                cmd.ExecuteNonQuery();
+            }
+            con.Close();
         }
     }
 }

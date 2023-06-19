@@ -103,7 +103,7 @@ namespace EkpaideytikoLogismiko
             }
             con.Close();
 
-
+            Class1.SEE1T = countS;
             MessageBox.Show("Your results:" + countS + "/4", "Test Complete",MessageBoxButtons.OK);
             countS = 0;
         }

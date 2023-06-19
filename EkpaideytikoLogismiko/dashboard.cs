@@ -22,11 +22,27 @@ namespace EkpaideytikoLogismiko
         {
             InitializeComponent();
             lblName.Text = Class1.LoggedInUsername;
-            if(Class1.SEE1S == "checked")
+            if(Class1.SEE1S == 1)
             {
                 checkBox1.Checked = true;
             }
-            
+            if(Class1.SEE2S == 1)
+            {
+                checkBox2.Checked = true;
+            }
+            if (Class1.GDE1S == 1)
+            {
+                checkBox3.Checked = true;
+            }
+            if (Class1.GDE2S == 1)
+            {
+                checkBox4.Checked = true;
+            }
+            lblE1T.Text = Class1.SEE1T.ToString();
+            lblE2T.Text = Class1.SEE2T.ToString();
+            lblGDE1T.Text = Class1.GDE1T.ToString();
+            lblGDE2T.Text = Class1.GDE2T.ToString();
+
         }
         
 

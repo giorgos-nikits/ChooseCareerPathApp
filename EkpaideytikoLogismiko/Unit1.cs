@@ -16,9 +16,13 @@ namespace EkpaideytikoLogismiko
         public Unit1()
         {
             InitializeComponent();
-            if(Class1.SEE1S == "checked")
+            if(Class1.SEE1S == 1)
             {
                 checkBox1.Checked = true;
+            }
+            else
+            {
+                checkBox1.Checked = false;  
             }
         }
 
@@ -40,13 +44,16 @@ namespace EkpaideytikoLogismiko
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
+            
             if(checkBox1.Checked == true)
             {
-                Class1.SEE1S = "checked";
+                Class1.SEE1S = 1;
+                
             }
             else
             {
-                Class1.SEE1S = "unchecked";
+                Class1.SEE1S = 0;
+                
             }
             
    
