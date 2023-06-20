@@ -47,6 +47,8 @@ namespace EkpaideytikoLogismiko
                 Class1.SEE2S = LoadVariableFromDatabase("SEE2");
                 Class1.GDE1S = LoadVariableFromDatabase("GDE1");
                 Class1.GDE2S = LoadVariableFromDatabase("GdE2");
+                Class1.SEET = LoadVariableFromDatabase("SEET");
+                Class1.GDET = LoadVariableFromDatabase("GDET");
                 con.Close();
             }
             else

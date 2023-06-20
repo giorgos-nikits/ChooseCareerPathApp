@@ -21,6 +21,9 @@ namespace EkpaideytikoLogismiko
         public static int GDE1T { get; set; }
         public static int GDE2T { get; set; }
 
+        public static int SEET { get; set; }
+        public static int GDET { get; set; }
+
 
     }
 }

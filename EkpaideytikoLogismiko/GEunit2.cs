@@ -59,7 +59,7 @@ namespace EkpaideytikoLogismiko
 
             con.Open();
             string tempUsername = Class1.LoggedInUsername;
-            string submit = "UPDATE tbl_users SET SEE1 = @ValueToAdd WHERE username = @Username";
+            string submit = "UPDATE tbl_users SET GDE2 = @ValueToAdd WHERE username = @Username";
             using (OleDbCommand cmd = new OleDbCommand(submit, con))
             {
                 cmd.Parameters.AddWithValue("@ValueToAdd", Class1.GDE2S);
@@ -68,6 +68,12 @@ namespace EkpaideytikoLogismiko
                 cmd.ExecuteNonQuery();
             }
             con.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            new GdUnitF().Show();
+            this.Hide();
         }
     }
 }

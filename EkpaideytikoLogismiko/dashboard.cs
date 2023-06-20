@@ -42,6 +42,8 @@ namespace EkpaideytikoLogismiko
             lblE2T.Text = Class1.SEE2T.ToString();
             lblGDE1T.Text = Class1.GDE1T.ToString();
             lblGDE2T.Text = Class1.GDE2T.ToString();
+            lblEPT1.Text = Class1.SEET.ToString();
+            lblGDET.Text = Class1.GDET.ToString();
 
         }
         

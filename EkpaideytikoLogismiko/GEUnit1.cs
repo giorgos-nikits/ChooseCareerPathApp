@@ -74,7 +74,7 @@ namespace EkpaideytikoLogismiko
 
             con.Open();
             string tempUsername = Class1.LoggedInUsername;
-            string submit = "UPDATE tbl_users SET SEE1 = @ValueToAdd WHERE username = @Username";
+            string submit = "UPDATE tbl_users SET GDE1 = @ValueToAdd WHERE username = @Username";
             using (OleDbCommand cmd = new OleDbCommand(submit, con))
             {
                 cmd.Parameters.AddWithValue("@ValueToAdd", Class1.GDE1S);

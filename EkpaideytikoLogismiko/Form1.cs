@@ -27,7 +27,7 @@ namespace EkpaideytikoLogismiko
             else if(txtpassword.Text == txtComPassword.Text)
             {
                 con.Open();
-                string register = "INSERT INTO tbl_users VALUES('" + txtUsername.Text + "','" + txtpassword.Text + "','"+0+"','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "')";
+                string register = "INSERT INTO tbl_users VALUES('" + txtUsername.Text + "','" + txtpassword.Text + "','"+0+"','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "','" + 0 + "')";
                 cmd = new OleDbCommand(register,con);
                 cmd.ExecuteNonQuery();
                 con.Close();

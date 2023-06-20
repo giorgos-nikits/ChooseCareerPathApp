@@ -10,22 +10,22 @@ using System.Windows.Forms;
 
 namespace EkpaideytikoLogismiko
 {
-    public partial class SeUnitF : Form
+    public partial class GdUnitF : Form
     {
-        public SeUnitF()
+        public GdUnitF()
         {
             InitializeComponent();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            new SeUnit2().Show();
+            new GEunit2().Show();
             this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new SeEpanT().Show();
+            new GdEpanT().Show();
             this.Hide();
         }
     }

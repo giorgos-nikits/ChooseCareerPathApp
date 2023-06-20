@@ -1,6 +1,6 @@
 ﻿namespace EkpaideytikoLogismiko
 {
-    partial class SeUnitF
+    partial class GdUnitF
     {
         /// <summary>
         /// Required designer variable.
@@ -28,64 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.label1.Location = new System.Drawing.Point(226, 105);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(361, 51);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Συγχαρητήρια ολοκλήρωσες τις πρώτες 2 ενότητες\r\nπρωτού προχωρήσεις κάνε ενα επανα" +
-    "ληπτικό τεστ\r\nγια να δεις αν τα έχεις καταλάβει όλα καλα ";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(342, 176);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 56);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "Επαναλητπικό \r\nτεστ";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.White;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
-            this.button2.Location = new System.Drawing.Point(342, 249);
+            this.button2.Location = new System.Drawing.Point(328, 249);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(120, 56);
-            this.button2.TabIndex = 2;
+            this.button2.TabIndex = 5;
             this.button2.Text = "ΠΙΣΩ";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // SeUnitF
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(328, 176);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(120, 56);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Επαναλητπικό \r\nτεστ";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Nirmala UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label1.Location = new System.Drawing.Point(212, 105);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(361, 51);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Συγχαρητήρια ολοκλήρωσες τις πρώτες 2 ενότητες\r\nπρωτού προχωρήσεις κάνε ενα επανα" +
+    "ληπτικό τεστ\r\nγια να δεις αν τα έχεις καταλάβει όλα καλα ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // GdUnitF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.AutoValidate = System.Windows.Forms.AutoValidate.EnablePreventFocusChange;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(784, 411);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "SeUnitF";
+            this.Name = "GdUnitF";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "SeUnitF";
+            this.Text = "GdUnitF";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,8 +91,8 @@
 
         #endregion
 
-        private Label label1;
-        private Button button1;
         private Button button2;
+        private Button button1;
+        private Label label1;
     }
 }

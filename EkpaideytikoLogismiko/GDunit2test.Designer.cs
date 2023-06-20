@@ -145,7 +145,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(237, 30);
             this.label3.TabIndex = 1;
-            this.label3.Text = "Απαιτήτη βασική κατανόηση της γλώσσας\r\nπρογραμματισμού C#\r\n";
+            this.label3.Text = "Απαιτήτη βασική κατανόηση της γλώσσας\r\nπρογραμματισμού C# για το unity\r\n";
             // 
             // txtBE3
             // 

@@ -51,6 +51,8 @@
             this.label14 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.lblEPT1 = new System.Windows.Forms.Label();
+            this.label28 = new System.Windows.Forms.Label();
             this.label34 = new System.Windows.Forms.Label();
             this.label35 = new System.Windows.Forms.Label();
             this.label36 = new System.Windows.Forms.Label();
@@ -75,6 +77,10 @@
             this.label16 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label20 = new System.Windows.Forms.Label();
+            this.lblGDET = new System.Windows.Forms.Label();
+            this.label30 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.label38 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -337,6 +343,12 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label38);
+            this.panel2.Controls.Add(this.lblGDET);
+            this.panel2.Controls.Add(this.label30);
+            this.panel2.Controls.Add(this.lblEPT1);
+            this.panel2.Controls.Add(this.label28);
             this.panel2.Controls.Add(this.label34);
             this.panel2.Controls.Add(this.label35);
             this.panel2.Controls.Add(this.label36);
@@ -365,6 +377,27 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(937, 172);
             this.panel2.TabIndex = 20;
+            // 
+            // lblEPT1
+            // 
+            this.lblEPT1.AutoSize = true;
+            this.lblEPT1.ForeColor = System.Drawing.Color.White;
+            this.lblEPT1.Location = new System.Drawing.Point(138, 136);
+            this.lblEPT1.Name = "lblEPT1";
+            this.lblEPT1.Size = new System.Drawing.Size(12, 15);
+            this.lblEPT1.TabIndex = 39;
+            this.lblEPT1.Text = "?";
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.BackColor = System.Drawing.Color.White;
+            this.label28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label28.Location = new System.Drawing.Point(156, 136);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(18, 15);
+            this.label28.TabIndex = 38;
+            this.label28.Text = "/8";
             // 
             // label34
             // 
@@ -615,6 +648,48 @@
             this.label20.TabIndex = 13;
             this.label20.Text = "Game Developer";
             // 
+            // lblGDET
+            // 
+            this.lblGDET.AutoSize = true;
+            this.lblGDET.ForeColor = System.Drawing.Color.White;
+            this.lblGDET.Location = new System.Drawing.Point(458, 136);
+            this.lblGDET.Name = "lblGDET";
+            this.lblGDET.Size = new System.Drawing.Size(12, 15);
+            this.lblGDET.TabIndex = 41;
+            this.lblGDET.Text = "?";
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.BackColor = System.Drawing.Color.White;
+            this.label30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label30.Location = new System.Drawing.Point(476, 136);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(18, 15);
+            this.label30.TabIndex = 40;
+            this.label30.Text = "/8";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.ForeColor = System.Drawing.Color.White;
+            this.label32.Location = new System.Drawing.Point(769, 136);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(12, 15);
+            this.label32.TabIndex = 43;
+            this.label32.Text = "?";
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.BackColor = System.Drawing.Color.White;
+            this.label38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(116)))), ((int)(((byte)(86)))), ((int)(((byte)(174)))));
+            this.label38.Location = new System.Drawing.Point(787, 136);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(18, 15);
+            this.label38.TabIndex = 42;
+            this.label38.Text = "/8";
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -691,5 +766,11 @@
         private Label label16;
         private Label label18;
         private Label label20;
+        private Label lblEPT1;
+        private Label label28;
+        private Label label32;
+        private Label label38;
+        private Label lblGDET;
+        private Label label30;
     }
 }
