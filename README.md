@@ -13,7 +13,7 @@ Create an account log in and start learning.
 
 ### The App is in Greek language only.
 
-#Preview Of App 
+# Preview Of App 
 
 ![Screenshot (130)](https://github.com/giorgos-nikits/ChooseCareerPathApp/assets/60752127/ce9c5afe-ebec-4e12-914c-3ea44114bd78)
 
